@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrinho - A Legítima Empada</title>
+  <link rel="stylesheet" href="car.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="nav-container">
+      <h1 class="title">Carrinho de Pedidos</h1>
+    </div>
+  </header>
+
+  <main class="formulario">
+    <form action="#" method="post">
+      <label for="produto">Escolha seu sabor:</label>
+      <select id="produto" name="produto" required>
+        <option value="">-- Selecione um sabor --</option>
+        <optgroup label="Empadas">
+          <option>Frango c/catupiry</option>
+          <option>Frango c/cheddar</option>
+          <option>Frango c/milho</option>
+          <option>Frango c/palmito</option>
+          <option>Frango c/azeitona</option>
+          <option>Frango c/bacon</option>
+          <option>Chocolate</option>
+          <option>Calabresa</option>
+          <option>Calabresa c/catupiry</option>
+          <option>Calabresa c/palmito</option>
+          <option>Lombo c/catupiry</option>
+          <option>Lombo c/cheddar</option>
+          <option>Lombo c/palmito</option>
+          <option>Queijo</option>
+          <option>Palmito</option>
+          <option>Palmito c/catupiry</option>
+        </optgroup>
+        <optgroup label="Encomendas">
+          <option>Empadão de 30cm</option>
+          <option>Empadão de 25cm</option>
+          <option>Empadinhas de aniversário - Cento</option>
+        </optgroup>
+      </select>
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" name="quantidade" min="1" max="99" required />
+
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="obs">Observações:</label>
+      <textarea id="obs" name="obs" placeholder="Ex: sem azeitona, bem assada..."></textarea>
+
+      <button type="submit" class="instagram">Fazer Pedido</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - A Legítima Empada</p>
+  </footer>
+
+</body>
+</html>
